@@ -1,0 +1,65 @@
+#kill {
+
+	background-color: beige;
+	height: 600px;
+	width: 800px;
+	margin: auto;
+	position: absolute;
+	overflow: hidden;
+	transform: translate(350px, -810px);
+}
+
+#healthBar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 20px;
+	width: 100%;
+	background-color: red;
+	transition: width .5s;
+}
+
+.enemy {
+	width: 150px;
+	height: 400px;
+	position: absolute;
+	background-color: beige;
+	bottom: -400px;
+	transition: all .5s;
+	background:url("https://www.blockfort.com/wp-content/uploads/7814/4878/9080/Stranger.jpg")
+}
+
+.enemy.showing {
+	bottom: 0;
+}
+
+.enemy.shooting {
+	background-color: red;
+}
+
+
+#enemy1 { left: 5px; }
+#enemy2 { left: 165px; }
+#enemy3 { left: 325px; }
+#enemy4 { left: 485px; }
+#enemy5 { left: 645px; }
+
+
+.enemy.dead {
+	background-color: red;
+	height: 50px;
+}
+.myVideo{
+position: relative;
+    height: 100%;
+    width: 100%;
+}
+#btn{
+	transform: translate(10px, -222px);
+	}
+
+
+body{
+		height: 100%;
+		width: 100%;
+	}
